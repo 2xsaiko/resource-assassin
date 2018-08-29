@@ -70,7 +70,7 @@ tasks.withType<Jar> {
   inputs.properties += "version" to project.version
   inputs.properties += "mcversion" to project.minecraft.version
 
-  baseName = name
+  baseName = project.name
 
   filesMatching("/mcmod.info") {
     expand(mapOf(
