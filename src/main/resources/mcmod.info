@@ -1,0 +1,14 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "resourceassassin",
+    "name": "Resource Assassin",
+    "description": "Disable loading server resource packs, without telling the server about it. >:D",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/therealfarfetchd/resource-assassin",
+    "authorList": ["the_real_farfetchd"],
+    "logoFile": "banner.png",
+    "requiredMods": ["forge", "forgelin"]
+  }]
+}
